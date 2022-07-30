@@ -11,3 +11,6 @@ target_link_libraries(std_result_of_std_is_same)
 
 add_executable (std_new_T1_value std_new_T1_value.cpp)
 target_link_libraries(std_new_T1_value mem_trace)
+
+add_executable (std_enable_if_test std_enable_if_test.cpp)
+target_link_libraries(std_enable_if_test)
